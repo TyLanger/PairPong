@@ -16,11 +16,7 @@ public class Paddle : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        vertInput = Input.GetAxisRaw("Vertical");
-    }
+
 
     private void FixedUpdate()
     {
